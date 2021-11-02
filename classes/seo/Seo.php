@@ -4,8 +4,8 @@ namespace Dynamedia\Posts\Classes\Seo;
 use Cache;
 use Dynamedia\Posts\Classes\Seo\Schema\ExtendedGraph;
 use Media\Classes\MediaLibrary;
-use RainLab\Translate\Classes\Translator;
-use RainLab\Translate\Models\Locale;
+use Winter\Translate\Classes\Translator;
+use Winter\Translate\Models\Locale;
 
 class Seo
 {
@@ -284,7 +284,7 @@ class Seo
         $this->alternativeUrls = $urls;
     }
 
-    //todo - copy rainlab logic probably
+    //todo - copy winter logic probably
     public function checkAlternativeUrls()
     {
         if (!$this->alternativeUrls){

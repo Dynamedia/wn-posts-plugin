@@ -4,9 +4,9 @@ use Dynamedia\Posts\Classes\Body\Body;
 use Model;
 use BackendAuth;
 use Event;
-use October\Rain\Database\Traits\Validation;
-use RainLab\Translate\Classes\Translator;
-use RainLab\Translate\Models\Locale;
+use Winter\Storm\Database\Traits\Validation;
+use Winter\Translate\Classes\Translator;
+use Winter\Translate\Models\Locale;
 
 
 /**
@@ -84,7 +84,7 @@ class TagTranslation extends Model
     public $hasMany = [];
     public $belongsTo = [
         'native' => ['Dynamedia\Posts\Models\Tag'],
-        'locale' => ['Rainlab\Translate\Models\Locale'],
+        'locale' => ['Winter\Translate\Models\Locale'],
     ];
     public $belongsToMany = [
         'tagslugs' => [

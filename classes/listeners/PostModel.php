@@ -1,7 +1,7 @@
 <?php namespace Dynamedia\Posts\Classes\Listeners;
 use Dynamedia\Posts\Models\PostSlug;
 use Str;
-use October\Rain\Argon\Argon;
+use Winter\Storm\Argon\Argon;
 use ValidationException;
 
 class PostModel

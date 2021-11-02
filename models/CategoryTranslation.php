@@ -7,9 +7,9 @@ use Event;
 use Dynamedia\Posts\Traits\SeoTrait;
 use Dynamedia\Posts\Traits\ImagesTrait;
 use Dynamedia\Posts\Traits\ControllerTrait;
-use \October\Rain\Database\Traits\Validation;
-use RainLab\Translate\Classes\Translator;
-use RainLab\Translate\Models\Locale;
+use \Winter\Storm\Database\Traits\Validation;
+use Winter\Translate\Classes\Translator;
+use Winter\Translate\Models\Locale;
 
 /**
  * CategoryTranslation Model
@@ -90,7 +90,7 @@ class CategoryTranslation extends Model
     public $hasMany = [];
     public $belongsTo = [
         'native' => ['Dynamedia\Posts\Models\Category'],
-        'locale' => ['Rainlab\Translate\Models\Locale'],
+        'locale' => ['Winter\Translate\Models\Locale'],
     ];
     public $belongsToMany = [
         'categoryslugs' => [

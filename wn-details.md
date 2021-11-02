@@ -1,4 +1,4 @@
-# About Posts for October CMS
+# About Posts for Winter CMS
 
 Posts is a powerful publishing platform for user generated content.
 

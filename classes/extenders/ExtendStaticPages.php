@@ -11,7 +11,7 @@ class ExtendStaticPages
 {
     public function subscribe()
     {
-        \RainLab\Pages\Classes\Page::extend(function ($model) {
+        \Winter\Pages\Classes\Page::extend(function ($model) {
             $model->translatable = array_merge($model->translatable, [
                 'viewBag[banner_image_alt]',
                 'viewBag[seo][about]',
@@ -54,7 +54,7 @@ class ExtendStaticPages
         Event::listen('backend.form.extendFieldsBefore', function ($widget) {
 
             // Only for the Page model
-            if (!$widget->model instanceof \RainLab\Pages\Classes\Page) {
+            if (!$widget->model instanceof \Winter\Pages\Classes\Page) {
                 return;
             }
 

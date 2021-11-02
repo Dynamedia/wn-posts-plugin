@@ -4,7 +4,7 @@ namespace Dynamedia\Posts\Classes\Seo\Schema;
 
 use Cms\Classes\Controller;
 use Cms\Classes\Theme;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 use Spatie\SchemaOrg\Article;
 use Spatie\SchemaOrg\Graph;
 

@@ -1,8 +1,8 @@
 <?php namespace Dynamedia\Posts\Updates;
 
 use Schema;
-use October\Rain\Database\Schema\Blueprint;
-use October\Rain\Database\Updates\Migration;
+use Winter\Storm\Database\Schema\Blueprint;
+use Winter\Storm\Database\Updates\Migration;
 
 class CreatePostsTable extends Migration
 {
@@ -32,7 +32,7 @@ class CreatePostsTable extends Migration
             $table->timestamps();
 
             // Translate plugin is a dependency
-            $table->foreign('locale_id')->references('id')->on('rainlab_translate_locales')
+            $table->foreign('locale_id')->references('id')->on('winter_translate_locales')
                 ->onDelete('set null');
             $table->foreign('author_id')->references('id')->on('backend_users')
                 ->onDelete('set null');

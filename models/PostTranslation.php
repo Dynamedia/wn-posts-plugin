@@ -4,11 +4,11 @@ use BackendAuth;
 use Event;
 use Dynamedia\Posts\Classes\Body\Body;
 use Model;
-use RainLab\Translate\Models\Locale;
+use Winter\Translate\Models\Locale;
 use Dynamedia\Posts\Traits\SeoTrait;
 use Dynamedia\Posts\Traits\ImagesTrait;
 use Dynamedia\Posts\Traits\ControllerTrait;
-use October\Rain\Database\Traits\Validation;
+use Winter\Storm\Database\Traits\Validation;
 
 
 /**
@@ -87,7 +87,7 @@ class PostTranslation extends Model
     public $hasMany = [];
     public $belongsTo = [
         'native' => ['Dynamedia\Posts\Models\Post'],
-        'locale' => ['Rainlab\Translate\Models\Locale']
+        'locale' => ['Winter\Translate\Models\Locale']
     ];
     public $belongsToMany = [
         'postslugs' => [

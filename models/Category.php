@@ -4,15 +4,15 @@ use Dynamedia\Posts\Classes\Acl\AccessControl;
 use Dynamedia\Posts\Classes\Seo\CategorySeoParser;
 use Model;
 use BackendAuth;
-use October\Rain\Database\Traits\NestedTree;
+use Winter\Storm\Database\Traits\NestedTree;
 use Dynamedia\Posts\Traits\SeoTrait;
 use Dynamedia\Posts\Traits\ImagesTrait;
 use Dynamedia\Posts\Traits\ControllerTrait;
-use October\Rain\Database\Traits\Validation;
+use Winter\Storm\Database\Traits\Validation;
 use Dynamedia\Posts\Traits\TranslatableContentObjectTrait;
 use Event;
 use Cache;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 
 /**
  * category Model
@@ -494,7 +494,7 @@ class Category extends Model
 
 
     // ---------------------------- //
-    // ---- Rainlab Pages Menu ---- //
+    // ---- Winter Pages Menu ---- //
     // ---------------------------- //
 
     /**
@@ -571,7 +571,7 @@ class Category extends Model
      *   return all available records.
      * - items - an array of arrays with the same keys (url, isActive, items) + the title key.
      *   The items array should be added only if the $item's $nesting property value is TRUE.
-     * @param \RainLab\Pages\Classes\MenuItem $item Specifies the menu item.
+     * @param \Winter\Pages\Classes\MenuItem $item Specifies the menu item.
      * @param \Cms\Classes\Theme $theme Specifies the current theme.
      * @param string $url Specifies the current page URL, normalized, in lower case
      * The URL is specified relative to the website root, it includes the subdirectory name, if any.

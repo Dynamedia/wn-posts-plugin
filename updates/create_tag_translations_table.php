@@ -1,8 +1,8 @@
 <?php namespace Dynamedia\Posts\Updates;
 
 use Schema;
-use October\Rain\Database\Schema\Blueprint;
-use October\Rain\Database\Updates\Migration;
+use Winter\Storm\Database\Schema\Blueprint;
+use Winter\Storm\Database\Updates\Migration;
 
 /**
  * CreateTagTranslationsTable Migration
@@ -15,7 +15,7 @@ class CreateTagTranslationsTable extends Migration
             $table->increments('id');
             // Keep nullable initially
             $table->integer('native_id')->unsigned()->nullable()->index();
-            // Rainlab translate
+            // Winter translate
             $table->integer('locale_id')->unsigned()->nullable()->index();
             $table->string('name');
             $table->string('slug')->index();
@@ -30,7 +30,7 @@ class CreateTagTranslationsTable extends Migration
 
             $table->foreign('native_id')->references('id')->on('dynamedia_posts_tags')
                 ->onDelete('cascade');
-            $table->foreign('locale_id')->references('id')->on('rainlab_translate_locales')
+            $table->foreign('locale_id')->references('id')->on('winter_translate_locales')
                 ->onDelete('set null');
         });
 

@@ -5,7 +5,7 @@ namespace Dynamedia\Posts\Classes\Seo;
 
 
 use Cms\Classes\Controller;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 use Media\Classes\MediaLibrary;
 use Spatie\SchemaOrg\Schema;
 

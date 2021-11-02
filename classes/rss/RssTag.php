@@ -2,7 +2,7 @@
 
 use Dynamedia\Posts\Models\Post;
 use Dynamedia\Posts\Models\Settings;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 use View;
 use Response;
 

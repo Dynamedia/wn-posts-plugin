@@ -3,7 +3,7 @@
 use Model;
 use Backend\Models\User as BackendUser;
 use Dynamedia\Posts\Traits\ControllerTrait;
-use \October\Rain\Database\Traits\Validation;
+use \Winter\Storm\Database\Traits\Validation;
 use Spatie\SchemaOrg\Schema;
 
 use ValidationException;

@@ -5,7 +5,7 @@ use Model;
 use Cms\Classes\Page;
 use Str;
 use ValidationException;
-use October\Rain\Database\Traits\Validation;
+use Winter\Storm\Database\Traits\Validation;
 use BackendAuth;
 use Event;
 
@@ -18,7 +18,7 @@ class Settings extends Model
 
     public $implement = [
         'System.Behaviors.SettingsModel',
-        '@RainLab.Translate.Behaviors.TranslatableModel'
+        '@Winter.Translate.Behaviors.TranslatableModel'
         ];
 
     public $translatable = [

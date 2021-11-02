@@ -3,7 +3,7 @@
 return [
     'plugin' => [
         'name'          => 'Posts',
-        'description'   => 'Posts for October CMS.'
+        'description'   => 'Posts for Winter CMS.'
     ],
     'posts' => [
         'tabs'  => [

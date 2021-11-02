@@ -18,8 +18,8 @@ use Dynamedia\Posts\Classes\Listeners\TagTranslationModel;
 use Dynamedia\Posts\Classes\Twig\TwigFilters;
 use Dynamedia\Posts\Classes\Twig\TwigFunctions;
 use Dynamedia\Posts\Classes\Seo\Seo;
-use RainLab\Translate\Classes\Translator;
-use RainLab\Translate\Models\Locale;
+use Winter\Translate\Classes\Translator;
+use Winter\Translate\Models\Locale;
 use System\Classes\PluginBase;
 use Event;
 use App;
@@ -32,7 +32,7 @@ use Config;
 class Plugin extends PluginBase
 {
     public $require = [
-        'RainLab.Translate'
+        'Winter.Translate'
     ];
     /**
      * Returns information about this plugin.

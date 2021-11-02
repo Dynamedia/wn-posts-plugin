@@ -1,10 +1,10 @@
 <?php namespace Dynamedia\Posts\Traits;
 
 use Dynamedia\Posts\Classes\Body\Body;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 use Cache;
 use Carbon\Carbon;
-use RainLab\Translate\Models\Locale;
+use Winter\Translate\Models\Locale;
 
 Trait TranslatableContentObjectTrait
 {

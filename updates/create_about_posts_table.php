@@ -1,8 +1,8 @@
 <?php namespace Dynamedia\Posts\Updates;
 
 use Schema;
-use October\Rain\Database\Schema\Blueprint;
-use October\Rain\Database\Updates\Migration;
+use Winter\Storm\Database\Schema\Blueprint;
+use Winter\Storm\Database\Updates\Migration;
 
 /**
  * CreateAboutPostsTable Migration

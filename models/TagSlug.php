@@ -7,7 +7,7 @@ use ValidationException;
  */
 class TagSlug extends Model
 {
-    use \October\Rain\Database\Traits\Validation;
+    use \Winter\Storm\Database\Traits\Validation;
 
     /**
      * @var string table associated with the model
