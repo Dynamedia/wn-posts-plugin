@@ -126,10 +126,8 @@ class Form
         $templateDir = "/body_templates/";
 
         $theme = Theme::getActiveTheme();
-        $parentTheme = $theme->getParentTheme();
 
         $path = null;
-        $parentPath = null;
 
         if (Cache::has($cacheKey)) {
             return Cache::get($cacheKey);
@@ -138,30 +136,16 @@ class Form
         $options = [];
 
         $path = $theme->getPath() . $templateDir;
-        if ($parentTheme) {
-            $parentPath = $parentTheme->getPath() . $templateDir;
-        }
 
         $themeFiles = [];
-        $parentFiles = [];
+
         if (file_exists($path)) {
             $themeFiles = collect(\File::allfiles($path))->filter(function($value) {
                 return $value->getExtension() == 'yml';
             });
         }
 
-        if (file_exists($parentPath)) {
-            $parentFiles = collect(\File::allfiles($parentPath))->filter(function($value) {
-                return $value->getExtension() == 'yml';
-            });
-        }
-
-        if (!empty($parentFiles)) {
-            $allFiles = $parentFiles->merge($themeFiles);
-        } else {
-            $allFiles = $themeFiles;
-        }
-
+        $allFiles = $themeFiles;
 
         foreach ($allFiles as $file) {
             try {
