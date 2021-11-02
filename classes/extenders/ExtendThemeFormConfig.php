@@ -12,7 +12,7 @@ class ExtendThemeFormConfig
     public function subscribe()
     {
         ThemeData::extend(function ($model) {
-            $model->addJsonable('images');
+            $model->addJsonable('images', 'operator');
             $translatable = [
                 'site_brand',
                 'site_name',

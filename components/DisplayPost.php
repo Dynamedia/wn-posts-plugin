@@ -9,6 +9,7 @@ use Dynamedia\Posts\Classes\Helpers\Form;
 use Dynamedia\Posts\Classes\Seo\PostsObjectSeoParser;
 use Dynamedia\Posts\Models\Settings;
 use Dynamedia\Posts\Traits\PaginationTrait;
+use Illuminate\Support\Facades\Lang;
 use Input;
 
 
@@ -89,6 +90,7 @@ class DisplayPost extends ComponentBase
         ];
 
         $this->paginator = $this->getPaginator($paginatorOptions, $this->currentPageUrl());
+
     }
 
 }
