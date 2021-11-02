@@ -27,8 +27,8 @@
         "php": ">=7.2",
         "composer/installers": "~1.0",
         "spatie/schema-org": "^3.4",
-        "winter/wn-pages-plugin": "~1.0",
-        "winter/wn-translate-plugin": "~1.0"
+        "winter/wn-pages-plugin": "^2.0",
+        "winter/wn-translate-plugin": "^2.0"
     },
     "extra": {
         "installer-name": "posts"
