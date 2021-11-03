@@ -7,7 +7,7 @@ To properly implement this plugin into your website, you will likely want to be 
 to display the content of your posts and have a way to list posts according
 to various criteria, perhaps by date posted or by the associated category, tag or author.
 
-A demonstration theme is available at https://github.com/Dynamedia/oc-posts-demo-theme
+A demonstration theme is available at https://github.com/Dynamedia/wn-posts-demo-theme
 which is a useful resource for developers looking to get a quick start. Additionally,
 a live and interactive demo site can be accessed at https://playground.posts-plugin.dynamedia.uk
 
