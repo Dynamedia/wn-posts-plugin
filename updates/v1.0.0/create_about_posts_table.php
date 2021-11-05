@@ -11,6 +11,8 @@ class CreateAboutPostsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_about_posts')) return;
+
         Schema::create('dynamedia_posts_about_posts', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();

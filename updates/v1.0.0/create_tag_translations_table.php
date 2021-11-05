@@ -11,6 +11,8 @@ class CreateTagTranslationsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_tag_translations')) return;
+
         Schema::create('dynamedia_posts_tag_translations', function (Blueprint $table) {
             $table->increments('id');
             // Keep nullable initially

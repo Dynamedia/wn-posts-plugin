@@ -8,6 +8,8 @@ class CreateCategoriesTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_categories')) return;
+
         Schema::create('dynamedia_posts_categories', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');

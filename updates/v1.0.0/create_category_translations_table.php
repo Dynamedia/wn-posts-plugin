@@ -11,6 +11,8 @@ class CreateCategoryTranslationsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_category_translations')) return;
+
         Schema::create('dynamedia_posts_category_translations', function (Blueprint $table) {
             $table->increments('id');
             // Keep nullable initially

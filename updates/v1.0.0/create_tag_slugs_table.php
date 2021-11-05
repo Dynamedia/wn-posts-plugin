@@ -11,6 +11,8 @@ class CreateTagSlugsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_tag_slugs')) return;
+
         Schema::create('dynamedia_posts_tag_slugs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('slug')->index();

@@ -11,6 +11,8 @@ class CreateCategorySlugsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_category_slugs')) return;
+
         Schema::create('dynamedia_posts_category_slugs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('slug')->index();

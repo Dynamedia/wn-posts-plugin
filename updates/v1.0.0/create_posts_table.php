@@ -8,7 +8,8 @@ class CreatePostsTable extends Migration
 {
     public function up()
     {
-        //todo missed foreign keys
+        if (Schema::hasTable('dynamedia_posts_posts')) return;
+
         Schema::create('dynamedia_posts_posts', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');

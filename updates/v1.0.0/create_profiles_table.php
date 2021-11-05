@@ -8,6 +8,8 @@ class CreateProfilesTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_profiles')) return;
+
         Schema::create('dynamedia_posts_profiles', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');

@@ -8,6 +8,8 @@ class CreateSettingsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_settings')) return;
+
         Schema::create('dynamedia_posts_settings', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');

@@ -8,6 +8,8 @@ class CreateTagsTable extends Migration
 {
     public function up()
     {
+        if (Schema::hasTable('dynamedia_posts_tags')) return;
+
         Schema::create('dynamedia_posts_tags', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
