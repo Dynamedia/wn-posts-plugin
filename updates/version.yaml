@@ -20,3 +20,5 @@
     - Fix link in documentation to point at Winter CMS demo theme
 "1.0.5":
     - Restructure updates directory and fix version.yaml keys for php7 compatibility with Winter
+"1.0.6":
+    - Normalize plugin version history (remove v prefixed versions)
