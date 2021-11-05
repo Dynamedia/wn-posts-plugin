@@ -1,18 +1,22 @@
-v1.0.0:
-  - First Version of Posts
-  - create_posts_table.php
-  - create_post_translations_table.php
-  - create_post_slugs_table.php
-  - create_categories_table.php
-  - create_category_translations_table.php
-  - create_category_slugs_table.php
-  - create_tags_table.php
-  - create_tag_translations_table.php
-  - create_tag_slugs_table.php
-  - create_profiles_table.php
-v1.0.1:
-  - Fix issue when saving models before settings have been completed
-v1.0.2:
-  - No locale prefix where only one language (i.e. Translate unused)
-v1.0.3:
-  - First version of Winter CMS supported fork
+"1.0.0":
+    - First Version of Posts
+    - v1.0.0/create_posts_table.php
+    - v1.0.0/create_post_translations_table.php
+    - v1.0.0/create_post_slugs_table.php
+    - v1.0.0/create_categories_table.php
+    - v1.0.0/create_category_translations_table.php
+    - v1.0.0/create_category_slugs_table.php
+    - v1.0.0/create_tags_table.php
+    - v1.0.0/create_tag_translations_table.php
+    - v1.0.0/create_tag_slugs_table.php
+    - v1.0.0/create_profiles_table.php
+"1.0.1":
+    - Fix issue when saving models before settings have been completed
+"1.0.2":
+    - No locale prefix where only one language (i.e. Translate unused)
+"1.0.3":
+    - First version of Winter CMS supported fork
+"1.0.4":
+    - Fix link in documentation to point at Winter CMS demo theme
+"1.0.5":
+    - Restructure updates directory and fix version.yaml keys for php7 compatibility with Winter
