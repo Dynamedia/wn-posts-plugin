@@ -22,3 +22,4 @@
     - Restructure updates directory and fix version.yaml keys for php7 compatibility with Winter
 "1.0.6":
     - Normalize plugin version history (remove v prefixed versions)
+    - v1.0.6/normalize_plugin_history.php
