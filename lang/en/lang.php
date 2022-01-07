@@ -115,6 +115,8 @@ return [
             'random'                => 'Random',
             'yes'                   => 'Yes',
             'no'                    => 'No',
+            'none'                  => 'None',
+            'inherit'               => 'Inherit',
             'locale_placeholder'    => '--- Select from available locales ---'
         ]
     ],
@@ -143,6 +145,10 @@ return [
         'options' => [
             'min_width'     => 'Min Width',
             'max_width'     => 'Max Width',
+            'above'         => 'Above',
+            'below'         => 'Below',
+            'inline_left'   => 'Inline Left',
+            'inline_right'  => 'Inline Right',
         ]
     ],
     'seo' => [
