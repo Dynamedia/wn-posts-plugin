@@ -41,14 +41,14 @@ return [
 
     'blocks' => [
         'names' => [
-          'richeditor_block'    => 'Richeditor Block',
-          'markdown_block'      => 'Markdown Block',
-          'html_block'          => 'HTML Block',
-          'image_block'         => 'Image Block',
-          'cms_content_block'   => 'CMS Content',
-          'cms_partial_block'   => 'CMS Partial',
-          'page_break'          => 'Page Break',
-          'heading_block'       => 'Heading Block'
+            'richeditor_block'    => 'Richeditor Block',
+            'markdown_block'      => 'Markdown Block',
+            'html_block'          => 'HTML Block',
+            'image_block'         => 'Image Block',
+            'cms_content_block'   => 'CMS Content',
+            'cms_partial_block'   => 'CMS Partial',
+            'page_break'          => 'Page Break',
+            'heading_block'       => 'Heading Block'
         ],
         'descriptions' => [
             'richeditor_block'  => 'Add a content section (Richeditor)',
@@ -119,7 +119,8 @@ return [
             'empty_option'  => 'Please Select',
             'approved'      => 'Approved',
             'locale'        => 'Locale',
-            'refresh'       => 'Refresh'
+            'refresh'       => 'Refresh',
+            'body_type'     => 'Body Type'
         ],
         'dropdown' => [
             'empty_option'          => 'Please Select',
@@ -131,8 +132,14 @@ return [
             'no'                    => 'No',
             'none'                  => 'None',
             'inherit'               => 'Inherit',
-            'locale_placeholder'    => '--- Select from available locales ---'
-        ]
+            'locale_placeholder'    => '--- Select from available locales ---',
+            'body_type' => [
+                'repeater'          => 'Repeater Blocks',
+                'richeditor'        => 'Rich Editor',
+                'markdown'          => 'Markdown Editor',
+                'theme_template'    => 'Choose from Theme Templates'
+            ],
+        ],
     ],
     'images' => [
         'tabs' => [
@@ -218,8 +225,8 @@ return [
         'comments' => [
         ],
         'dropdown' => [
-          'organization'    => 'Organization',
-          'person'          => 'Person',
+            'organization'    => 'Organization',
+            'person'          => 'Person',
         ],
     ],
     'components' => [
