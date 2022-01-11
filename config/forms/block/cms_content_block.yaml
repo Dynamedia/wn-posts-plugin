@@ -5,7 +5,7 @@ tabs:
       tab: dynamedia.posts::lang.common.tabs.main
       type: dropdown
       options: \Dynamedia\Posts\Classes\Helpers\Form::getCmsContentOptions
-      emptyOption: Select the content
+      emptyOption: dynamedia.posts::lang.blocks.empty.cms_content_block
 
     in_contents:
         tab: dynamedia.posts::lang.common.tabs.settings
@@ -25,7 +25,7 @@ tabs:
          preset: contents_title
 
     _preview:
-        tab: Preview
+        tab: dynamedia.posts::lang.common.tabs.preview
         type: partial
         path: $/dynamedia/posts/views/repeaterbody/preview/_cms_content_block_preview.htm
         dependsOn: cms_content_block
