@@ -1,48 +1,48 @@
 tabs:
-  fields:
-    keywords:
-      tab: dynamedia.posts::lang.seo.tabs.general
-      label: dynamedia.posts::lang.seo.labels.keywords
-      type: taglist
-      mode: array
-    title:
-      tab: dynamedia.posts::lang.seo.tabs.search
-      label: dynamedia.posts::lang.seo.labels.page_title
-      required: false
-    description:
-      tab: dynamedia.posts::lang.seo.tabs.search
-      label: dynamedia.posts::lang.seo.labels.meta_description
-      type: textarea
+    fields:
+        keywords:
+            tab: dynamedia.posts::lang.seo.tabs.general
+            label: dynamedia.posts::lang.seo.labels.keywords
+            type: taglist
+            mode: array
+        title:
+            tab: dynamedia.posts::lang.seo.tabs.search
+            label: dynamedia.posts::lang.seo.labels.page_title
+            required: false
+        description:
+            tab: dynamedia.posts::lang.seo.tabs.search
+            label: dynamedia.posts::lang.seo.labels.meta_description
+            type: textarea
 
-    schema_type:
-        tab: Schema
-        label: Post Type
-        type: dropdown
-        options:
-            # option keys to exactly mach Spatie Schema-org class names
-            article: dynamedia.posts::lang.seo.dropdown.article
-            blogPosting: dynamedia.posts::lang.seo.dropdown.blogPosting
-            newsArticle: dynamedia.posts::lang.seo.dropdown.newsArticle
+        schema_type:
+            tab: dynamedia.posts::lang.seo.tabs.schema
+            label: dynamedia.posts::lang.seo.labels.post_type
+            type: dropdown
+            options:
+                # option keys to exactly mach Spatie Schema-org class names
+                article: dynamedia.posts::lang.seo.dropdown.article
+                blogPosting: dynamedia.posts::lang.seo.dropdown.blogPosting
+                newsArticle: dynamedia.posts::lang.seo.dropdown.newsArticle
 
-    schema_content:
-        tab: Schema
-        type: nestedform
-        usePanelStyles: false
-        showPanel: false
-        form: $/dynamedia/posts/config/forms/schema/schema_content.yml
+        schema_content:
+            tab: dynamedia.posts::lang.seo.tabs.schema
+            type: nestedform
+            usePanelStyles: false
+            showPanel: false
+            form: $/dynamedia/posts/config/forms/schema/schema_content.yml
 
-    opengraph_title:
-      tab: dynamedia.posts::lang.seo.tabs.opengraph
-      label: dynamedia.posts::lang.common.labels.title
-    opengraph_description:
-      tab: dynamedia.posts::lang.seo.tabs.opengraph
-      label: dynamedia.posts::lang.common.labels.description
-      type: textarea
-    twitter_title:
-      tab: dynamedia.posts::lang.seo.tabs.twitter
-      label: dynamedia.posts::lang.common.labels.title
-    twitter_description:
-      tab: dynamedia.posts::lang.seo.tabs.twitter
-      label: dynamedia.posts::lang.common.labels.description
-      type: textarea
+        opengraph_title:
+            tab: dynamedia.posts::lang.seo.tabs.opengraph
+            label: dynamedia.posts::lang.common.labels.title
+        opengraph_description:
+            tab: dynamedia.posts::lang.seo.tabs.opengraph
+            label: dynamedia.posts::lang.common.labels.description
+            type: textarea
+        twitter_title:
+            tab: dynamedia.posts::lang.seo.tabs.twitter
+            label: dynamedia.posts::lang.common.labels.title
+        twitter_description:
+            tab: dynamedia.posts::lang.seo.tabs.twitter
+            label: dynamedia.posts::lang.common.labels.description
+            type: textarea
 
