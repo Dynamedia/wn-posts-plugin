@@ -31,16 +31,22 @@ return [
 
     'categories' => [
         'titles' => [
-            'category'              => 'Category',
-            'manage_categories'     => 'Manage Categories',
-            'reorder_categories'    => 'Re-Order Categories',
+            'category'  => 'Category',
+            'manage'    => 'Manage Categories',
+            'reorder'   => 'Re-Order Categories',
         ],
-
         'buttons'   => [
-            'new'           => 'New Category',
+            'new'   => 'New Category',
         ],
-        'messages' => [
-        ]
+    ],
+    'categoryslugs' => [
+        'titles' => [
+            'categoryslug'   => 'Category Slug',
+            'manage'         => 'Manage Category Slugs',
+        ],
+        'buttons'   => [
+            'new'           => 'New Category Slug',
+        ],
     ],
 
     'tags' => [
