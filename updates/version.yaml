@@ -23,3 +23,5 @@
 "1.0.6":
     - Normalize plugin version history (remove v prefixed versions)
     - v1.0.6/normalize_plugin_history.php
+"1.0.7":
+    - All backend strings are now translatable. Auto/demo Fr file included
