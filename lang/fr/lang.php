@@ -21,7 +21,7 @@ return [
             "published_at" => "Publié à",
             "publishing_time" => "Temps publié",
             "publishing_date" => "Date de publication",
-            "published_until" => "Publié jusqu\'à",
+            "published_until" => "Publié jusqu'à",
             "hide_published" => "Cacher Publié",
             "show_contents" => "Afficher le contenu ?",
             "primary_category" => "Catégorie primaire",
@@ -31,7 +31,7 @@ return [
         "comments" => [
             "primary_category" => "La catégorie la plus pertinente",
             "published_at" => "Par défaut à maintenant si publié",
-            "published_until" => "Délai d\'expiration facultatif de la poste"
+            "published_until" => "Délai d'expiration facultatif de la poste"
         ],
         "buttons" => [
             "new" => "Nouveau poste"
@@ -122,17 +122,17 @@ return [
             "richeditor_block" => "Bloc de richeditor",
             "markdown_block" => "Bloc de démarquage",
             "html_block" => "Bloc HTML",
-            "image_block" => "Bloc d\'images",
+            "image_block" => "Bloc d'images",
             "cms_content_block" => "Contenu du CMS",
             "cms_partial_block" => "CMS partiel",
             "page_break" => "Saut de page",
-            "heading_block" => "Bloc d\'en-tête"
+            "heading_block" => "Bloc d'en-tête"
         ],
         "descriptions" => [
             "richeditor_block" => "Ajouter une section de contenu (Richeditor)",
             "markdown_block" => "Ajouter une section de contenu (Markdown)",
             "html_block" => "Ajouter un bloc de HTML",
-            "image_block" => "Ajouter un bloc d\'images",
+            "image_block" => "Ajouter un bloc d'images",
             "cms_content_block" => "Ajouter du contenu CMS",
             "cms_partial_block" => "Ajouter un CMS partiel",
             "page_break" => "Ajouter un saut de page",
@@ -145,8 +145,8 @@ return [
         "labels" => [
             "cms_content_block" => "Contenu du CMS",
             "cms_partial_block" => "CMS partiel",
-            "heading_type" => "Type d\'en-tête",
-            "heading_content" => "Contenu de l\'en-tête",
+            "heading_type" => "Type d'en-tête",
+            "heading_content" => "Contenu de l'en-tête",
             "html_block" => "Bloc HTML",
             "in_contents" => "Inclure dans le contenu ?",
             "contents_title" => "Titre pour le contenu",
@@ -163,8 +163,8 @@ return [
     "common" => [
         "titles" => [
             "reorder" => "Commander à nouveau",
-            "previewing" => "Prévisualisation de \':name\'.",
-            "editing" => "Modification de \':name\'."
+            "previewing" => "Prévisualisation de ':name'.",
+            "editing" => "Modification de ':name'."
         ],
         "tabs" => [
             "detail" => "Détail",
@@ -224,7 +224,7 @@ return [
         "dropdown" => [
             "empty_option" => "Veuillez sélectionner",
             "newest_first" => "Le plus récent Premier",
-            "oldest_first" => "Le plus ancien d\'entre eux",
+            "oldest_first" => "Le plus ancien d'entre eux",
             "recent_update" => "Récemment mis à jour",
             "random" => "Random",
             "yes" => "Oui",
@@ -255,12 +255,12 @@ return [
         ],
         "labels" => [
             "image_select" => "Choisissez une image",
-            "alt_text" => "Texte Alt de l\'image",
+            "alt_text" => "Texte Alt de l'image",
             "caption" => "Légende",
-            "css_class" => "Classe CSS d\'image",
-            "image_style" => "Style d\'image",
+            "css_class" => "Classe CSS d'image",
+            "image_style" => "Style d'image",
             "media_query" => "Demande de médias",
-            "screen_width" => "Largeur de l\'écran"
+            "screen_width" => "Largeur de l'écran"
         ],
         "comments" => [
             "facebook" => "Image de partage social pour Facebook",
@@ -332,18 +332,18 @@ return [
             "settings" => "Paramètres",
             "page_label" => "Paramètres des postes de Dynamedia",
             "page_description" => "Gérer les paramètres des postes.",
-            "publisher_name" => "Nom de l\'éditeur",
-            "publisher_type" => "Type d\'éditeur",
-            "publisher_url" => "URL de l\'éditeur",
-            "publisher_logo" => "Logo de l\'éditeur",
+            "publisher_name" => "Nom de l'éditeur",
+            "publisher_type" => "Type d'éditeur",
+            "publisher_url" => "URL de l'éditeur",
+            "publisher_logo" => "Logo de l'éditeur",
             "posts_sort_order" => "Ordre de tri des messages",
             "default_posts_sort_order" => "Ordre de tri des messages par défaut",
             "posts_per_page" => "Messages par page",
             "include_subcategories" => "Lister les articles des sous-catégories",
             "post_page" => "Affichez la page",
-            "category_page" => "Page d\'affichage des catégories",
-            "tag_page" => "Page d\'affichage des étiquettes",
-            "user_page" => "Page d\'affichage de l\'utilisateur",
+            "category_page" => "Page d'affichage des catégories",
+            "tag_page" => "Page d'affichage des étiquettes",
+            "user_page" => "Page d'affichage de l'utilisateur",
             "default_post_layout" => "Mise en page par défaut des messages",
             "default_category_layout" => "Mise en page par défaut des catégories",
             "default_tag_layout" => "Mise en page par défaut des balises",
@@ -362,16 +362,16 @@ return [
             "description" => "Afficher le contenu du message"
         ],
         "display_category" => [
-            "name" => "Catégorie d\'affichage",
+            "name" => "Catégorie d'affichage",
             "description" => "Afficher le contenu des catégories avec les articles"
         ],
         "display_tag" => [
-            "name" => "Étiquette d\'affichage",
+            "name" => "Étiquette d'affichage",
             "description" => "Afficher le contenu des tags avec les articles"
         ],
         "display_user" => [
-            "name" => "Afficher l\'utilisateur",
-            "description" => "Afficher le profil de l\'utilisateur avec les articles rédigés"
+            "name" => "Afficher l'utilisateur",
+            "description" => "Afficher le profil de l'utilisateur avec les articles rédigés"
         ],
         "list_posts" => [
             "name" => "Liste des postes",
@@ -392,22 +392,22 @@ return [
                 "post_ids" => [
                     "title" => "Filtre de poste",
                     "description" => "Limiter les résultats à ces identifiants de poste",
-                    "validation" => "Veuillez entrer une liste d\'identifiants de postes séparés par des virgules."
+                    "validation" => "Veuillez entrer une liste d'identifiants de postes séparés par des virgules."
                 ],
                 "not_post_ids" => [
                     "title" => "Exclure les postes",
                     "description" => "Exclure ces identifiants de poste",
-                    "validation" => "Veuillez entrer une liste d\'identifiants de postes séparés par des virgules."
+                    "validation" => "Veuillez entrer une liste d'identifiants de postes séparés par des virgules."
                 ],
                 "not_category_ids" => [
                     "title" => "Exclure les messages de la catégorie",
                     "description" => "Exclure les ID de ces catégories",
-                    "validation" => "Veuillez saisir une liste d\'identifiants de catégorie séparés par des virgules."
+                    "validation" => "Veuillez saisir une liste d'identifiants de catégorie séparés par des virgules."
                 ],
                 "not_tag_ids" => [
                     "title" => "Exclure les messages des balises",
-                    "description" => "Exclure ces étiquettes d\'identification",
-                    "validation" => "Veuillez entrer une liste d\'identifiants séparés par des virgules."
+                    "description" => "Exclure ces étiquettes d'identification",
+                    "validation" => "Veuillez entrer une liste d'identifiants séparés par des virgules."
                 ],
                 "posts_limit" => [
                     "title" => "Total des postes",
@@ -416,12 +416,12 @@ return [
                 ],
                 "posts_per_page" => [
                     "title" => "Messages par page",
-                    "description" => "Limiter le nombre d\'articles par page",
+                    "description" => "Limiter le nombre d'articles par page",
                     "validation" => "Veuillez entrer un nombre entier positif"
                 ],
                 "no_posts_message" => [
                     "title" => "Message pAucun message",
-                    "description" => "Message à afficher lorsqu\'aucun message n\'est trouvé",
+                    "description" => "Message à afficher lorsqu'aucun message n'est trouvé",
                     "default" => "Aucun poste trouvé"
                 ],
                 "sort_order" => [
@@ -441,7 +441,7 @@ return [
                 ],
                 "posts_per_page" => [
                     "title" => "Messages par page",
-                    "description" => "Limiter le nombre d\'articles par page",
+                    "description" => "Limiter le nombre d'articles par page",
                     "validation" => "Veuillez entrer un nombre entier positif"
                 ],
                 "sort_order" => [
@@ -452,11 +452,11 @@ return [
         ],
         "main_rss" => [
             "name" => "Composant MainRss",
-            "description" => "Fournit une méthode pour dicter l\'url du flux rss principal."
+            "description" => "Fournit une méthode pour dicter l'url du flux rss principal."
         ],
         "main_sitemap" => [
             "name" => "Composant MainSitemap",
-            "description" => "Fournit une méthode pour dicter l\'url du plan du site principal."
+            "description" => "Fournit une méthode pour dicter l'url du plan du site principal."
         ]
     ],
     "acl" => [
@@ -494,17 +494,17 @@ return [
         ],
         "error" => [
             "manage_categories" => "Permissions insuffisantes pour gérer les catégories",
-            "edit_post" => "Droits d\'accès insuffisants pour modifier :post",
+            "edit_post" => "Droits d'accès insuffisants pour modifier :post",
             "publish_post" => "Autorisations insuffisantes pour publier :post",
             "unpublish_post" => "Autorisations insuffisantes pour dépublier :post",
             "delete_post" => "Permissions insuffisantes pour supprimer :post",
-            "edit_tag" => "Droits d\'accès insuffisants pour modifier :tag",
+            "edit_tag" => "Droits d'accès insuffisants pour modifier :tag",
             "delete_tag" => "Autorisations insuffisantes pour publier :tag",
             "manage_settings" => "Autorisations insuffisantes pour gérer les paramètres"
         ]
     ],
     "validation" => [
-        "slug_unavailable" => "Le slug \':slug\' n\'est pas disponible."
+        "slug_unavailable" => "Le slug ':slug' n'est pas disponible."
     ],
     "static_pages" => [
         "tabs" => [
@@ -542,16 +542,16 @@ return [
             "biography" => "Biographie"
         ],
         "labels" => [
-            "username" => "Nom d\'utilisateur :",
-            "twitter_handle" => "Nom d\'utilisateur Twitter",
-            "instagram_handle" => "Nom d\'utilisateur Instagram",
-            "facebook_handle" => "Nom d\'utilisateur Facebook",
+            "username" => "Nom d'utilisateur :",
+            "twitter_handle" => "Nom d'utilisateur Twitter",
+            "instagram_handle" => "Nom d'utilisateur Instagram",
+            "facebook_handle" => "Nom d'utilisateur Facebook",
             "website_url" => "URL du site web",
             "mini_biography" => "Mini biographie",
             "full_biography" => "Biographie complète"
         ],
         "placeholders" => [
-            "handle" => "Votre nom d\'utilisateur",
+            "handle" => "Votre nom d'utilisateur",
             "at_handle" => "@VotreNomDePoste",
             "website" => "https://yourwebsite.com"
         ]
@@ -572,9 +572,9 @@ return [
             "site_description" => "Description du site",
             "append_to_title" => "Ajouter au titre",
             "facebook_url" => "URL de Facebook",
-            "facebook_app_id" => "ID de l\'application Facebook",
-            "twitter_handle" => "Nom d\'utilisateur Twitter",
-            "operator_type" => "Type d\'opérateur",
+            "facebook_app_id" => "ID de l'application Facebook",
+            "twitter_handle" => "Nom d'utilisateur Twitter",
+            "operator_type" => "Type d'opérateur",
             "name" => "Nom",
             "logo" => "Logo",
             "address_street" => "Adresse de la rue",
