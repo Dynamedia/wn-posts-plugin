@@ -366,16 +366,13 @@ return [
             'rss_posts_per_feed'        => 'Posts per Feed',
 
         ],
-        'comments' => [
-        ],
+
         'dropdown' => [
             'organization'    => 'Organization',
             'person'          => 'Person',
         ],
     ],
     'components' => [
-        'common' => [
-        ],
         'display_post' => [
             'name'          => 'Display Post',
             'description'   => 'Show post content',
