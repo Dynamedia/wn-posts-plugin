@@ -25,3 +25,5 @@
     - v1.0.6/normalize_plugin_history.php
 "1.0.7":
     - All backend strings are now translatable. Auto/demo Fr file included
+"1.0.8":
+    - Fix confusing settings. Allow and default page selection to None (for future API users)
