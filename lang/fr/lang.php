@@ -1,14 +1,14 @@
 <?php
-// Automatic translation via DeepL
+
 return [
     "plugin" => [
-        "name" => "Postes",
-        "description" => "Postes pour le Winter CMS."
+        "name" => "Posts",
+        "description" => "Posts pour Winter CMS."
     ],
     "posts" => [
         "titles" => [
-            "post" => "Poste",
-            "manage" => "Gérer les messages"
+            "post" => "Article",
+            "manage" => "Gérer les articles"
         ],
         "tabs" => [
             "categories" => "Catégories",
@@ -17,11 +17,11 @@ return [
         "labels" => [
             "author" => "Auteur",
             "editor" => "Rédacteur en chef",
-            "is_published" => "Publié sur",
-            "published_at" => "Publié à",
-            "publishing_time" => "Temps publié",
+            "is_published" => "Publié",
+            "published_at" => "Publié le",
+            "publishing_time" => "Heure de publication",
             "publishing_date" => "Date de publication",
-            "published_until" => "Publié jusqu'à",
+            "published_until" => "Publié jusqu'au",
             "hide_published" => "Cacher Publié",
             "show_contents" => "Afficher le contenu ?",
             "primary_category" => "Catégorie primaire",
@@ -30,31 +30,34 @@ return [
         ],
         "comments" => [
             "primary_category" => "La catégorie la plus pertinente",
-            "published_at" => "Par défaut à maintenant si publié",
-            "published_until" => "Délai d'expiration facultatif de la poste"
+            "published_at" => "Par défaut maintenant, si publié",
+            "published_until" => "Délai d'expiration facultatif de l'article"
         ],
         "buttons" => [
-            "new" => "Nouveau poste"
+            "new" => "Nouvel article"
         ]
     ],
+
     "postslugs" => [
         "titles" => [
             "postslug" => "Post Slug",
-            "manage" => "Gérer les limaces de poteau"
+            "manage" => "Gérer les slugs de poteau"
         ],
         "buttons" => [
             "new" => "Nouveau Post Slug"
         ]
     ],
+
     "posttranslations" => [
         "titles" => [
             "posttranslation" => "Traduction postale",
             "manage" => "Gérer les traductions des articles"
         ],
         "buttons" => [
-            "new" => "Traduction des nouveaux postes"
+            "new" => "Traduction des nouveaux posts"
         ]
     ],
+
     "categories" => [
         "titles" => [
             "category" => "Catégorie",
@@ -65,15 +68,17 @@ return [
             "new" => "Nouvelle catégorie"
         ]
     ],
+
     "categoryslugs" => [
         "titles" => [
             "categoryslug" => "Catégorie Slug",
-            "manage" => "Gérer les limaces de catégorie"
+            "manage" => "Gérer les slugs de catégorie"
         ],
         "buttons" => [
             "new" => "Nouveau slug de catégorie"
         ]
     ],
+
     "categorytranslations" => [
         "titles" => [
             "categorytranslation" => "Traduction par catégorie",
@@ -83,10 +88,11 @@ return [
             "new" => "Traduction de la nouvelle catégorie"
         ]
     ],
+
     "tags" => [
         "titles" => [
             "tag" => "Étiquette",
-            "manage" => "Manage Tags"
+            "manage" => "Gérer les étiquettes"
         ],
         "labels" => [
             "is_approved" => "Approuvé ?"
@@ -96,9 +102,10 @@ return [
             "approve" => "Approuver la sélection"
         ],
         "messages" => [
-            "approve_selected_confirm" => "Êtes-vous sûr de vouloir approuver les balises sélectionnées ?"
+            "approve_selected_confirm" => "Êtes-vous sûr de vouloir approuver les étiquettes sélectionnées ?"
         ]
     ],
+
     "tagslugs" => [
         "titles" => [
             "tagslug" => "Tag Slug",
@@ -108,6 +115,7 @@ return [
             "new" => "Nouveau Tag Slug"
         ]
     ],
+
     "tagtranslations" => [
         "titles" => [
             "tagtranslation" => "Traduction des tags",
@@ -117,14 +125,15 @@ return [
             "new" => "Traduction des nouveaux tags"
         ]
     ],
+
     "blocks" => [
         "names" => [
-            "richeditor_block" => "Bloc de richeditor",
-            "markdown_block" => "Bloc de démarquage",
+            "richeditor_block" => "Bloc éditeur enrichi",
+            "markdown_block" => "Bloc Markdown",
             "html_block" => "Bloc HTML",
             "image_block" => "Bloc d'images",
             "cms_content_block" => "Contenu du CMS",
-            "cms_partial_block" => "CMS partiel",
+            "cms_partial_block" => "Partiel du CMS",
             "page_break" => "Saut de page",
             "heading_block" => "Bloc d'en-tête"
         ],
@@ -134,7 +143,7 @@ return [
             "html_block" => "Ajouter un bloc de HTML",
             "image_block" => "Ajouter un bloc d'images",
             "cms_content_block" => "Ajouter du contenu CMS",
-            "cms_partial_block" => "Ajouter un CMS partiel",
+            "cms_partial_block" => "Ajouter un partiel du CMS",
             "page_break" => "Ajouter un saut de page",
             "heading_block" => "Ajouter un titre"
         ],
@@ -160,6 +169,7 @@ return [
             "cms_partial_block" => "Sélectionnez la partie"
         ]
     ],
+
     "common" => [
         "titles" => [
             "reorder" => "Commander à nouveau",
@@ -172,11 +182,11 @@ return [
             "image" => "Image",
             "body" => "Corps",
             "seo" => "SEO",
-            "posts" => "Postes",
+            "posts" => "Posts",
             "settings" => "Paramètres",
             "main" => "Principal",
             "translations" => "Traductions",
-            "slugs" => "Limaces connexes",
+            "slugs" => "Slugs liés",
             "preview" => "Prévisualisation"
         ],
         "labels" => [
@@ -184,22 +194,22 @@ return [
             "name" => "Nom",
             "title" => "Titre",
             "description" => "Description",
-            "slug" => "Limace",
-            "slugs" => "Limaces",
+            "slug" => "Slug",
+            "slugs" => "Slugs",
             "excerpt" => "Extrait",
             "seo" => "SEO",
-            "post" => "Poste",
-            "posts" => "Postes",
-            "new_post" => "Nouveau poste",
-            "postslugs" => "Limaces de poteau",
-            "posttranslations" => "Traductions de postes",
+            "post" => "Article",
+            "posts" => "Articles",
+            "new_post" => "Nouvel article",
+            "postslugs" => "Slugs de poteau",
+            "posttranslations" => "Traductions de posts",
             "category" => "Catégorie",
             "categories" => "Catégories",
-            "categoryslugs" => "Catégorie Limaces",
+            "categoryslugs" => "Catégorie Slugs",
             "categorytranslations" => "Traductions de catégories",
             "tag" => "Étiquette",
             "tags" => "Tags",
-            "tagslugs" => "Étiquette Limaces",
+            "tagslugs" => "Étiquette Slugs",
             "tagtranslations" => "Traductions de balises",
             "cms_layout" => "Mise en page du CMS",
             "author" => "Auteur",
@@ -209,38 +219,39 @@ return [
             "block_content" => "Contenu de la section",
             "empty_option" => "Veuillez choisir",
             "approved" => "Approuvé",
-            "locale" => "Locale",
+            "locale" => "Langue",
             "refresh" => "Rafraîchir",
-            "body_type" => "Type de carrosserie",
+            "body_type" => "Type de corps",
             "link" => "Lien",
-            "published_posts" => "Postes publiés",
-            "unpublished_posts" => "Postes non publiés",
+            "published_posts" => "Posts publiés",
+            "unpublished_posts" => "Posts non publiés",
             "active" => "Actif",
+            'locale' => 'Langue',
             "translations" => "Traductions",
-            "primary_locale" => "Locale primaire",
+            "primary_locale" => "Langue principale",
             "populate_from" => "Populate From",
             "live_view" => "Live View"
         ],
         "dropdown" => [
             "empty_option" => "Veuillez sélectionner",
-            "newest_first" => "Le plus récent Premier",
-            "oldest_first" => "Le plus ancien d'entre eux",
+            "newest_first" => "Le plus récent en premier",
+            "oldest_first" => "Le plus ancien en premier",
             "recent_update" => "Récemment mis à jour",
             "random" => "Random",
             "yes" => "Oui",
             "no" => "Non",
-            "none" => "Aucun",
-            "inherit" => "Hériter de",
+            "none" => "Aucun(e)",
+            "inherit" => "Hérité(e)",
             "locale_placeholder" => "--- Sélectionnez parmi les langues disponibles ---",
             "body_type" => [
-                "repeater" => "Blocs répétiteurs",
-                "richeditor" => "Rich Editor",
+                "repeater" => "Blocs répétés",
+                "richeditor" => "Éditeur enrichi",
                 "markdown" => "Éditeur Markdown",
                 "theme_template" => "Choisissez parmi les modèles de thèmes"
             ]
         ],
         "buttons" => [
-            "reorder" => "Commander à nouveau"
+            "reorder" => "Réorganiser"
         ]
     ],
     "images" => [
@@ -255,11 +266,11 @@ return [
         ],
         "labels" => [
             "image_select" => "Choisissez une image",
-            "alt_text" => "Texte Alt de l'image",
+            "alt_text" => "Texte alternatif de l'image",
             "caption" => "Légende",
-            "css_class" => "Classe CSS d'image",
-            "image_style" => "Style d'image",
-            "media_query" => "Demande de médias",
+            "css_class" => "Classe CSS de l'image",
+            "image_style" => "Style de l'image",
+            "media_query" => "Media Query",
             "screen_width" => "Largeur de l'écran"
         ],
         "comments" => [
@@ -269,10 +280,10 @@ return [
         "options" => [
             "min_width" => "Largeur minimale",
             "max_width" => "Largeur maximale",
-            "above" => "Au-dessus de",
-            "below" => "En dessous de",
-            "inline_left" => "Inline Left",
-            "inline_right" => "Inline Right"
+            "above" => "Au-dessus",
+            "below" => "En dessous",
+            "inline_left" => "En ligne à gauche",
+            "inline_right" => "En ligne à droite"
         ]
     ],
     "seo" => [
@@ -289,7 +300,9 @@ return [
             "keywords" => "Mots clés",
             "page_title" => "Titre de la page",
             "meta_description" => "Meta Description"
+
         ],
+        // Pas dans la configuration car ils sont définis par le schéma et n'ont pas besoin d'être modifiés.
         "dropdown" => [
             "article" => "Article",
             "blogPosting" => "Blog Post",
@@ -317,12 +330,13 @@ return [
             ]
         ]
     ],
+
     "settings" => [
         "tabs" => [
             "publisher" => "Editeur",
-            "posts" => "Postes",
+            "posts" => "Articles",
             "categories" => "Catégories",
-            "tags" => "Tags",
+            "tags" => "Étiquettes",
             "users" => "Utilisateurs",
             "cms_layouts" => "Mises en page CMS",
             "translation" => "Traduction",
@@ -330,52 +344,54 @@ return [
         ],
         "labels" => [
             "settings" => "Paramètres",
-            "page_label" => "Paramètres des postes de Dynamedia",
-            "page_description" => "Gérer les paramètres des postes.",
+            "page_label" => "Paramètres des articles de Dynamedia",
+            "page_description" => "Gérer les paramètres des articles.",
             "publisher_name" => "Nom de l'éditeur",
             "publisher_type" => "Type d'éditeur",
             "publisher_url" => "URL de l'éditeur",
             "publisher_logo" => "Logo de l'éditeur",
-            "posts_sort_order" => "Ordre de tri des messages",
-            "default_posts_sort_order" => "Ordre de tri des messages par défaut",
-            "posts_per_page" => "Messages par page",
+            "posts_sort_order" => "Ordre de tri des articles",
+            "default_posts_sort_order" => "Ordre de tri des articles par défaut",
+            "posts_per_page" => "Articles par page",
             "include_subcategories" => "Lister les articles des sous-catégories",
-            "post_page" => "Affichez la page",
+            "post_page" => "Page d'affichage des articles",
             "category_page" => "Page d'affichage des catégories",
             "tag_page" => "Page d'affichage des étiquettes",
             "user_page" => "Page d'affichage de l'utilisateur",
-            "default_post_layout" => "Mise en page par défaut des messages",
+            "default_post_layout" => "Mise en page par défaut des posts",
             "default_category_layout" => "Mise en page par défaut des catégories",
             "default_tag_layout" => "Mise en page par défaut des balises",
             "rss_title" => "Titre du flux RSS principal",
             "rss_description" => "Description du flux RSS principal",
-            "rss_posts_per_feed" => "Messages par flux"
+            "rss_posts_per_feed" => "Articles par flux",
+
         ],
+
         "dropdown" => [
             "organization" => "Organisation",
-            "person" => "Personne"
+            "person" => "Personne",
         ]
     ],
     "components" => [
         "display_post" => [
-            "name" => "Afficher le poste",
-            "description" => "Afficher le contenu du message"
+            "name" => "Affichage article",
+            "description" => "Afficher un article"
         ],
         "display_category" => [
-            "name" => "Catégorie d'affichage",
-            "description" => "Afficher le contenu des catégories avec les articles"
+            "name" => "Affichage catégorie",
+            "description" => "Afficher les catégories avec les articles"
         ],
         "display_tag" => [
-            "name" => "Étiquette d'affichage",
-            "description" => "Afficher le contenu des tags avec les articles"
+            "name" => "Affichage étiquette",
+            "description" => "Afficher les étiquettes avec les articles"
         ],
         "display_user" => [
             "name" => "Afficher l'utilisateur",
             "description" => "Afficher le profil de l'utilisateur avec les articles rédigés"
         ],
         "list_posts" => [
-            "name" => "Liste des postes",
-            "description" => "Liste des messages configurable",
+            "name" => "Liste des articles",
+            "description" => "Liste configurable des articles",
             "properties" => [
                 "category_filter" => [
                     "title" => "Filtre de catégorie",
@@ -386,31 +402,31 @@ return [
                     "description" => "Lister les messages des sous-catégories de la catégorie sélectionnée"
                 ],
                 "tag_filter" => [
-                    "title" => "Filtre à étiquettes",
-                    "description" => "Restreindre les résultats à ce tag"
+                    "title" => "Filtre des étiquettes",
+                    "description" => "Restreindre les résultats à cette étiquette"
                 ],
                 "post_ids" => [
-                    "title" => "Filtre de poste",
-                    "description" => "Limiter les résultats à ces identifiants de poste",
-                    "validation" => "Veuillez entrer une liste d'identifiants de postes séparés par des virgules."
+                    "title" => "Filtre des articles",
+                    "description" => "Limiter les résultats à ces identifiants d'article",
+                    "validation" => "Veuillez entrer une liste d'identifiants d'articles séparés par des virgules."
                 ],
                 "not_post_ids" => [
-                    "title" => "Exclure les postes",
-                    "description" => "Exclure ces identifiants de poste",
-                    "validation" => "Veuillez entrer une liste d'identifiants de postes séparés par des virgules."
+                    "title" => "Exclure les articles",
+                    "description" => "Exclure ces identifiants d'article",
+                    "validation" => "Veuillez entrer une liste d'identifiants des articles séparés par des virgules."
                 ],
                 "not_category_ids" => [
                     "title" => "Exclure les messages de la catégorie",
                     "description" => "Exclure les ID de ces catégories",
-                    "validation" => "Veuillez saisir une liste d'identifiants de catégorie séparés par des virgules."
+                    "validation" => "Veuillez entrer une liste d'identifiants de catégorie séparés par des virgules."
                 ],
                 "not_tag_ids" => [
                     "title" => "Exclure les messages des balises",
-                    "description" => "Exclure ces étiquettes d'identification",
+                    "description" => "Exclure ces identifiants d'étiquettes",
                     "validation" => "Veuillez entrer une liste d'identifiants séparés par des virgules."
                 ],
                 "posts_limit" => [
-                    "title" => "Total des postes",
+                    "title" => "Total des posts",
                     "description" => "Limiter le nombre de posts à récupérer",
                     "validation" => "Veuillez entrer un nombre entier positif ou laisser en blanc"
                 ],
@@ -420,122 +436,127 @@ return [
                     "validation" => "Veuillez entrer un nombre entier positif"
                 ],
                 "no_posts_message" => [
-                    "title" => "Message pAucun message",
-                    "description" => "Message à afficher lorsqu'aucun message n'est trouvé",
-                    "default" => "Aucun poste trouvé"
+                    "title" => "Message aucun article",
+                    "description" => "Message à afficher lorsqu'aucun article n'est trouvé",
+                    "default" => "Aucun article trouvé"
                 ],
                 "sort_order" => [
                     "title" => "Ordre de tri",
-                    "description" => "Trier les messages récupérés"
+                    "description" => "Trier les messages recherchés"
                 ]
             ]
         ],
         "search_posts" => [
-            "name" => "Recherche de postes",
-            "description" => "Afficher les résultats de la recherche",
+            "name" => "Recherche d'articles",
+            "description" => "Afficher les résultats d'une recherche",
             "properties" => [
                 "posts_limit" => [
-                    "title" => "Total des postes",
-                    "description" => "Limiter le nombre de posts à récupérer",
-                    "validation" => "Veuillez entrer un nombre entier positif ou laisser en blanc"
+                    "title" => "Total d'articles",
+                    "description" => "Limiter le nombre d'articles à récupérer",
+                    "validation" => "Veuillez entrer un nombre entier positif ou laisser vide"
                 ],
                 "posts_per_page" => [
-                    "title" => "Messages par page",
+                    "title" => "Articles par page",
                     "description" => "Limiter le nombre d'articles par page",
                     "validation" => "Veuillez entrer un nombre entier positif"
                 ],
                 "sort_order" => [
                     "title" => "Ordre de tri",
-                    "description" => "Trier les messages récupérés"
+                    "description" => "Trier les messages recherchés"
                 ]
             ]
         ],
         "main_rss" => [
-            "name" => "Composant MainRss",
-            "description" => "Fournit une méthode pour dicter l'url du flux rss principal."
+            "name" => "Composant flux Rss",
+            "description" => "Fournit une méthode pour imposer l'url du flux rss principal."
         ],
         "main_sitemap" => [
-            "name" => "Composant MainSitemap",
-            "description" => "Fournit une méthode pour dicter l'url du plan du site principal."
+            "name" => "Composant Sitemap",
+            "description" => "Fournit une méthode pour imposer l'url du plan du site principal."
         ]
     ],
+
+    // Control d'accès
     "acl" => [
         "permissions_settings" => [
             "tabs" => [
-                "posts" => "Postes"
+                "posts" => "Articles"
             ],
             "labels" => [
                 "access_plugin" => "Plugin Access Posts",
-                "create_posts" => "Créer des postes",
-                "categorize_posts" => "Catégoriser les messages",
-                "tag_posts" => "Tag Posts",
+                "create_posts" => "Créer des posts",
+                "categorize_posts" => "Catégoriser les articles",
+                "tag_posts" => "Étiquettes d'articles",
                 "set_post_layout" => "Définir la mise en page du message",
                 "publish_own_posts" => "Publier ses propres articles",
                 "unpublish_own_posts" => "Dépublier ses propres articles",
                 "edit_own_published_posts" => "Modifier vos propres articles publiés",
-                "delete_own_unpublished_posts" => "Supprimer ses propres messages non publiés",
-                "delete_own_published_posts" => "Supprimer ses propres messages publiés",
+                "delete_own_unpublished_posts" => "Supprimer ses propres articles non publiés",
+                "delete_own_published_posts" => "Supprimer ses propres articles publiés",
                 "publish_all_posts" => "Publier tous les articles",
                 "unpublish_all_posts" => "Dépublier tous les articles",
-                "edit_all_unpublished_posts" => "Modifier tous les messages non publiés",
+                "edit_all_unpublished_posts" => "Modifier tous les articles non publiés",
                 "edit_all_published_posts" => "Modifier tous les articles publiés",
-                "delete_all_unpublished_posts" => "Supprimer tous les messages non publiés",
-                "delete_all_published_posts" => "Supprimer tous les messages publiés",
-                "assign_posts" => "Attribuer des messages à un utilisateur",
+                "delete_all_unpublished_posts" => "Supprimer tous les articles non publiés",
+                "delete_all_published_posts" => "Supprimer tous les articles publiés",
+                "assign_posts" => "Attribuer des articles à un utilisateur",
                 "view_categories" => "Voir les catégories",
                 "manage_categories" => "Gérer les catégories",
                 "view_tags" => "Afficher les étiquettes",
-                "manage_tags" => "Manage Tags",
+                "manage_tags" => "Gérer les étiquettes",
                 "manage_translations" => "Gérer les traductions",
-                "manage_slugs" => "Gérer les limaces",
+                "manage_slugs" => "Gérer les slugs",
                 "view_settings" => "Afficher les paramètres",
                 "manage_settings" => "Gérer les paramètres"
             ]
         ],
         "error" => [
             "manage_categories" => "Permissions insuffisantes pour gérer les catégories",
-            "edit_post" => "Droits d'accès insuffisants pour modifier :post",
-            "publish_post" => "Autorisations insuffisantes pour publier :post",
-            "unpublish_post" => "Autorisations insuffisantes pour dépublier :post",
+            "edit_post" => "Permissions insuffisantes pour modifier :post",
+            "publish_post" => "Permissions insuffisantes pour publier :post",
+            "unpublish_post" => "Permissions insuffisantes pour dépublier :post",
             "delete_post" => "Permissions insuffisantes pour supprimer :post",
-            "edit_tag" => "Droits d'accès insuffisants pour modifier :tag",
-            "delete_tag" => "Autorisations insuffisantes pour publier :tag",
-            "manage_settings" => "Autorisations insuffisantes pour gérer les paramètres"
+            "edit_tag" => "Permissions insuffisantes pour modifier :tag",
+            "delete_tag" => "Permissions insuffisantes pour publier :tag",
+            "manage_settings" => "Permissions insuffisantes pour gérer les paramètres"
         ]
     ],
+
     "validation" => [
         "slug_unavailable" => "Le slug ':slug' n'est pas disponible."
     ],
+
     "static_pages" => [
         "tabs" => [
-            "banner_image" => "Image de la bannière",
+            "banner_image" => "Image de bannière",
             "social_images" => "Images sociales",
             "seo" => "SEO"
         ],
         "labels" => [
             "default" => "Image par défaut",
-            "responsive" => "Images réactives",
-            "facebook_image" => "Image de partage Facebook",
-            "twitter_image" => "Image de partage Twitter",
+            "responsive" => "Images responsives",
+            "facebook_image" => "Image de partage pour Facebook",
+            "twitter_image" => "Image de partage pour Twitter",
             "seo_page_about" => "La page concerne",
             "seo_keywords" => "Mots clés",
             "seo_search_description" => "Description pour les moteurs de recherche",
-            "seo_opengraph_title" => "Titre pour le partage avec Facebook et Open Graph",
-            "seo_opengraph_description" => "Description des partages Facebook et Open Graph",
+            "seo_opengraph_title" => "Titre pour le partage sur Facebook et Open Graph",
+            "seo_opengraph_description" => "Description pour le partage sur Facebook et Open Graph",
             "seo_twitter_title" => "Titre pour le partage sur Twitter",
             "seo_twitter_description" => "Description pour le partage sur Twitter"
         ],
         "menu_types" => [
-            "category" => "Postes : Une seule catégorie",
-            "all_categories" => "Postes : Toutes les catégories",
-            "post" => "Messages : Un seul message",
-            "all_posts" => "Messages : Tous les messages",
-            "tag" => "Postes : Une seule étiquette",
-            "all_tags" => "Messages : Tous les tags",
-            "category_posts" => "Messages : Messages de la catégorie",
-            "tag_posts" => "Messages : Messages avec étiquette"
+            "category" => "Articles : Une seule catégorie",
+            "all_categories" => "Articles : Toutes les catégories",
+            "post" => "Articles : Un article",
+            "all_posts" => "Articles : Tous les articles",
+            "tag" => "Articles : Une étiquette",
+            "all_tags" => "Articles : Toutes les étiquettes",
+            "category_posts" => "Articles : Articles de la catégorie",
+            "tag_posts" => "Articles : Articles avec étiquette"
         ]
     ],
+
     "backend_user" => [
         "tabs" => [
             "profile" => "Profil",
@@ -552,10 +573,11 @@ return [
         ],
         "placeholders" => [
             "handle" => "Votre nom d'utilisateur",
-            "at_handle" => "@VotreNomDePoste",
-            "website" => "https://yourwebsite.com"
+            "at_handle" => "@VotreNomUtilisateur",
+            "website" => "https://votresiteweb.com"
         ]
     ],
+
     "theme_form_config" => [
         "tabs" => [
             "branding" => "Image de marque",
@@ -586,7 +608,8 @@ return [
             "address_longitude" => "Longitude",
             "contact_telephone" => "Téléphone",
             "contact_email" => "Courriel :",
-            "contact_fax" => "Fax"
+            "contact_fax" => "Fax",
+
         ],
         "placeholders" => [
             "facebook_url" => "https://facebook.com/YourUsername",
@@ -603,6 +626,6 @@ return [
         ]
     ],
     "aboutposts" => [
-        "page_title" => "A propos des postes"
+        "page_title" => "A propos de Posts"
     ]
 ];
