@@ -73,14 +73,16 @@ tabs:
             label: dynamedia.posts::lang.common.labels.author
             span: left
             type: relation
-            nameFrom: profile.full_name
+            select: concat(first_name, ' ', last_name)
+            emptyOption: dynamedia.posts::lang.common.dropdown.empty_option
+
 
         editor:
             tab: dynamedia.posts::lang.common.tabs.settings
             label: dynamedia.posts::lang.common.labels.editor
             span: right
             type: relation
-            nameFrom: profile.full_name
+            select: concat(first_name, ' ', last_name)
             emptyOption: dynamedia.posts::lang.common.dropdown.empty_option
 
         cms_layout:
