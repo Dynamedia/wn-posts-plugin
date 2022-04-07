@@ -2,7 +2,7 @@
 
 namespace Dynamedia\Posts\Classes\Seo;
 
-use Media\Classes\MediaLibrary;
+use System\Classes\MediaLibrary;
 
 class PageObjectSeoParser extends Seo
 {

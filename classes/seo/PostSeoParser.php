@@ -4,6 +4,7 @@ namespace Dynamedia\Posts\Classes\Seo;
 
 use Dynamedia\Posts\Classes\Seo\Schema\SchemaFactory;
 use Dynamedia\Posts\Models\Post;
+use System\Classes\MediaLibrary;
 
 class PostSeoParser extends PostsObjectSeoParser
 {
@@ -76,7 +77,7 @@ class PostSeoParser extends PostsObjectSeoParser
         $imageUrl = $this->model->getBestImage();
         if ($imageUrl) {
             $image = SchemaFactory::makeSpatie('imageObject')
-                ->url(\URL::to(\Media\Classes\MediaLibrary::url($imageUrl)));
+                ->url(\URL::to(MediaLibrary::url($imageUrl)));
             $article->image($image);
         }
 

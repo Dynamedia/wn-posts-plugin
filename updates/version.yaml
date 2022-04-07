@@ -29,3 +29,5 @@
     - Fix confusing settings. Allow and default page selection to None (for future API users)
 "1.0.9":
     - Add French translation (@damsfx - Damien MATHIEU)
+"1.0.10":
+    - Update MediaLibrary references to support Winter's implementation

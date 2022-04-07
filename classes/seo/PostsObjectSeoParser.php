@@ -3,7 +3,7 @@
 namespace Dynamedia\Posts\Classes\Seo;
 
 
-use Media\Classes\MediaLibrary;
+use System\Classes\MediaLibrary;
 use App;
 
 class PostsObjectSeoParser

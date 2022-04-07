@@ -6,7 +6,7 @@ namespace Dynamedia\Posts\Classes\Seo;
 
 use Cms\Classes\Controller;
 use Winter\Translate\Classes\Translator;
-use Media\Classes\MediaLibrary;
+use System\Classes\MediaLibrary;
 use Spatie\SchemaOrg\Schema;
 
 

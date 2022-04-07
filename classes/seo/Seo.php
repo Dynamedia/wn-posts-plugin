@@ -3,7 +3,7 @@ namespace Dynamedia\Posts\Classes\Seo;
 
 use Cache;
 use Dynamedia\Posts\Classes\Seo\Schema\ExtendedGraph;
-use Media\Classes\MediaLibrary;
+use System\Classes\MediaLibrary;
 use Winter\Translate\Classes\Translator;
 use Winter\Translate\Models\Locale;
 
